@@ -2,6 +2,9 @@
 requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.package-data]
+ci_course = ["data/*.csv"]
+
 [project]
 name = "ci_course"
 version = "0.1.0"
